@@ -6,7 +6,9 @@
 package duong.util;
 
 
-import duong.util.MathUtility;
+import static duong.util.MathUtility.*;
+//khai bao sẳn hàm static 
+//ở dưới gọi hàm ko cần chấm
 
 /**
  *
@@ -18,10 +20,13 @@ public class MathUtil {
         long actual=MathUtility.getFactorial(5);
         System.out.println("5! Expected "+ expectted+ ", Actual: "+actual);
         
-        System.out.println("6!: "+MathUtility.getFactorial(6));
+        System.out.println("6!: "+getFactorial(6));
         
-        System.out.println("0!: "+MathUtility.getFactorial(0));
+        System.out.println("0!: "+getFactorial(0));
         
-        System.out.println("-5!: "+MathUtility.getFactorial(-5));
+        System.out.println("-5!: "+getFactorial(-5));
+        
+        //in thủ PI
+        System.out.println("PI: "+PI);
     }
 }
