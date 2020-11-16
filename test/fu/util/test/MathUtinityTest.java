@@ -20,6 +20,7 @@ public class MathUtinityTest {
     @Test
     public void getFactorial_RunWell_IfVaildArgument(){
         assertEquals(120, getFactorial(5));
+        assertEquals(1, getFactorial(0));
     }
     
     //cần ném về ngoại lệ hay ko
