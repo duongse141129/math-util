@@ -6,7 +6,6 @@
 package fu.util.test;
 
 import static duong.util.MathUtility.*;
-import java.sql.SQLException;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -28,7 +27,7 @@ public class MathUtinityTest {
     //tình huống giao thừa -5 màu xanh   
     
     //IllegalArgumentException
-    @Test(expected = SQLException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void getFactorial_ThrowException_IfInvalidArgument(){
         getFactorial(-5);
     }
