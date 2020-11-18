@@ -24,6 +24,9 @@ public class MathUtil {
         
         System.out.println("0!: "+getFactorial(0));
         
+        System.out.println("Goodbye and good luck to you all in the FINAL EXAM");
+        System.out.println("Hope that you all will get the GREEN ICONS");
+        
         System.out.println("-5!: "+getFactorial(-5));
         
         //in thủ PI
